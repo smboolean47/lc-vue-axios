@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Vuejs Axios</title>
+		<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+	</head>
+	<body>
+
+		<div id="root">
+			<h2>il numero del giocatore è {{numero}}</h2>
+			<h2>il numero della CPU è {{numeroCpu}}</h2>
+			<h1>{{ numeroCpu >= numero ? 'Hai Perso' : 'Hai vinto' }}</h1>
+
+			<h3>{{personaggio.name}}</h3>
+			<h4>Altezza: {{personaggio.height}}cm</h4>
+		</div>
+		
+		<!-- development version, includes helpful console warnings -->
+		<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
